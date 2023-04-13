@@ -1,39 +1,46 @@
-.not-found-container {
-  width: 100vw;
-  height: 100vh;
+.not-found-main-container {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #161625;
+}
+.not-found-data {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #161625;
+  margin-top: 0px;
+  padding: 12px;
 }
 
-.not-found-image {
-  width: 300px;
-  height: 200px;
-}
-
-.not-found-heading {
+.not-found-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
   color: #cbd5e1;
-  font-size: 22px;
 }
 
 .not-found-para {
-  color: #94a3b8;
-  font-size: 13px;
-  width: 320px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
   text-align: center;
-  margin-top: 0px;
+  color: #94a3b8;
 }
 
 .home-button {
-  width: 60px;
-  height: 30px;
+  background: #2563eb;
+  border-radius: 12px;
   color: #ffffff;
-  font-size: 9px;
-  border-style: none;
-  outline: none;
-  background-color: #2563eb;
-  border-radius: 8px;
-  margin-top: 5px;
+  padding: 12px 24px;
+  border: none;
+}
+
+.button-container {
+  text-align: center;
 }
